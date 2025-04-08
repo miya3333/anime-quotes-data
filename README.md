@@ -29,25 +29,12 @@ anime-quote goku
 
 > Note: An internet connection is required on the first run to download quote data.
 
-## Data Source
-
-Quotes are fetched in real-time from the following GitHub repository:
-
-[miya3333](https://github.com/miya3333/anime-quotes-data)
-
-Contributions to the quote database are welcome.
-
-
 ## Terms of Use
 
 1. This package retrieves quote data from an open GitHub repository.
 2. Offline use is supported after initial data retrieval.
 3. Do not redistribute the content without appropriate credit.
 4. This package is not affiliated with any anime studios or official licensors.
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Contributing
 
