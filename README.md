@@ -1,55 +1,56 @@
-# 🌀 anime-quotes
+# anime-quotes
 
-Get inspired (or scream like Goku) – right from your terminal!
+A lightweight and easy-to-use command-line tool to display random anime quotes.
 
-## 📦 About
+## About
 
-**anime-quotes** is a simple Python CLI tool that fetches **random anime quotes** directly from GitHub.  
-You can get a random quote or filter by character name.
+**anime-quotes** is a Python package that allows users to retrieve random quotes from anime characters via the command line.  
+It supports filtering by character name and fetches quote data from a public GitHub repository. The quotes are cached locally for offline access after the first run.
 
-Quotes are updated in real-time, so you always get the freshest wisdom straight from the anime multiverse. 😤⚡
+## Installation
 
-## 🚀 Installation
+Install from PyPI:
 
 ```bash
 pip install anime-quotes
 ```
 
-## ⚙️ Usage
+## Usage
 
-Get a random quote
+Displays a random quote:
 ```bash
 anime-quote
 ```
 
-Get a quote from **Goku**
+Displays a quote from the character "Goku":
 ```bash
 anime-quote goku
 ```
 
-> Works offline after first use (thanks to local caching)
+> Note: An internet connection is required on the first run to download quote data.
 
-## 💾 Data Source
+## Data Source
 
-All quotes are fetched from a public GitHub repository in real-time:
+Quotes are fetched in real-time from the following GitHub repository:
 
-👉 [miya3333](https://github.com/miya3333/anime-quotes-data)
+[miya3333](https://github.com/miya3333/anime-quotes-data)
 
-You can contribute new quotes there!
+Contributions to the quote database are welcome.
 
-## 📜 License
 
-MIT License — Free to use, share, and modify.  
-Just don’t use it for evil (like Orochimaru vibes).
+## Terms of Use
 
-## ✅ Terms of Use
+1. This package retrieves quote data from an open GitHub repository.
+2. Offline use is supported after initial data retrieval.
+3. Do not redistribute the content without appropriate credit.
+4. This package is not affiliated with any anime studios or official licensors.
 
-1. This tool fetches data from GitHub. **Internet connection required on first run**.
-2. Quotes are fan-contributed. Use responsibly.
-3. Do not redistribute this as your own without credit.
-4. Not affiliated with any anime studios or official sources.
+## License
 
-## 🙌 Contribute
+This project is licensed under the MIT License.
 
-Got better quotes? Pull request here:  
-📂 [miya3333](https://github.com/miya3333/anime-quotes-data)
+## Contributing
+
+To contribute new quotes or improvements, please submit a pull request to the following repository:
+
+[miya3333](https://github.com/miya3333/anime-quotes-data)
