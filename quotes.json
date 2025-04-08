@@ -6,5 +6,11 @@
     {"quote": "All Might!", "author": "Bakugo"},
     {"quote": "Uraraka!", "author": "Bakugo"},
     {"quote": "I'M Iron Man!", "author": "IronMan"},
+    {
+        "anime": "Bleach",
+        "character": "Ichigo Kurosaki",
+        "quote": "If I don’t wield the sword, I can’t protect you. If I keep wielding the sword, I can’t embrace you."
+      }
+      
     {"quote": "Fear is not evil. It tells you what your weakness is.", "author": "Gildarts"}
 ]
